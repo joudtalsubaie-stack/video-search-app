@@ -1535,7 +1535,7 @@ def translate_en_to_ar(text):
 # ============================================================
 #              CHATBOT (Bilingual)
 # ============================================================
-GROQ_API_KEY = "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"
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 def chatbot_reply(user_msg, history=None):
     if history is None:
