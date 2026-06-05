@@ -10,3 +10,4 @@ langdetect
 faster-whisper
 streamlit-mic-recorder
 requests
+gdown
