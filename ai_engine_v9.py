@@ -40,7 +40,7 @@ VIDEO_LINKS_NPY = os.path.join(BASE_DIR, "dataset", "video_embedding_links.npy")
 FINETUNED_MODEL_PATH = "/tmp/clip_finetuned_msrvtt.pt"
 if not os.path.exists(FINETUNED_MODEL_PATH):
     import gdown
-  gdown.download("https://drive.google.com/uc?id=1lrQK1EIHvNT3WBRc8NG2hwxlJQG7SLC7", FINETUNED_MODEL_PATH, quiet=False)
+    gdown.download("https://drive.google.com/uc?id=1lrQK1EIHvNT3WBRc8NG2hwxlJQG7SLC7", FINETUNED_MODEL_PATH, quiet=False)
 IMAGE_MODEL_PATH = os.path.join(BASE_DIR, "clip_finetuned_image2video.pt")
 
 # ══════════════════════════════════════════════════════════
